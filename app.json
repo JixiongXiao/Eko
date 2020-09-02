@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Eko",
+    "slug": "echoProject",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./app/assets/Image/Icons/AppIconCircle.png",
+    "description": "Eko is an interactive audio story app created to make you relax",
+    "splash": {
+      "image": "./app/assets/Image/Icons/AppIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4864E6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.idmProject.eko",
+      "buildNumber": "1.0.3",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.idmProject.eko"
+    }
+  }
+}
